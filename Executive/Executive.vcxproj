@@ -89,10 +89,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\janol\source\repos\GenericFlightSimulation\Tools;C:\Users\janol\source\repos\GenericFlightSimulation\Atmosphere</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../Tools;../Atmosphere;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>"C:\Users\janol\source\repos\GenericFlightSimulation\Debug"</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>"../Debug"</AdditionalLibraryDirectories>
       <AdditionalDependencies>Tools.lib;Atmosphere.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

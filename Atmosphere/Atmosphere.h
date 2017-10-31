@@ -1,3 +1,19 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+//
+// class name:			Atmosphere
+//
+// short description:	class which calculates atmosphere parameter (NASA 1987)
+//
+// Date:				22.10.2017
+//
+// Author:				Jan Olucak
+//
+// external sources:	-Bachelorarbeit Jan Olucak
+//
+// revision:			1.0
+//
+//////////////////////////////////////////////////////////////////////////////////////////
+
 #ifndef __Atmopshere
 #endif	__Atmopshere
 
@@ -5,7 +21,7 @@
 
 #include <math.h>
 #include <iostream>
-#include"Constants.h"
+#include"../Tools/Constants.h"
 
 typedef double Float64;
 
@@ -30,3 +46,4 @@ private:
 
 
 };
+
