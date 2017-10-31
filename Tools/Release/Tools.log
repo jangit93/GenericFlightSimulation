@@ -1,0 +1,6 @@
+﻿  LinearInterpolation.cpp
+LinearInterpolation.cpp(43): warning C4244: "=": Konvertierung von "Float64" in "Int32", möglicher Datenverlust
+LinearInterpolation.cpp(49): warning C4244: "=": Konvertierung von "Float64" in "Int32", möglicher Datenverlust
+  LogData.cpp
+  readInTables.cpp
+LINK : fatal error LNK1561: Einstiegspunkt muss definiert werden.

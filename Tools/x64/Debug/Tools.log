@@ -1,0 +1,10 @@
+﻿  readInTables.cpp
+c:\users\janol\source\repos\genericflightsimulation\tools\readintables.cpp(52): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+c:\users\janol\source\repos\genericflightsimulation\tools\readintables.cpp(118): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  LogData.cpp
+  LinearInterpolation.cpp
+c:\users\janol\source\repos\genericflightsimulation\tools\linearinterpolation.cpp(43): warning C4244: "=": Konvertierung von "Float64" in "Int32", möglicher Datenverlust
+c:\users\janol\source\repos\genericflightsimulation\tools\linearinterpolation.cpp(49): warning C4244: "=": Konvertierung von "Float64" in "Int32", möglicher Datenverlust
+  Code wird generiert...
+c:\users\janol\source\repos\genericflightsimulation\tools\readintables.cpp(83): warning C4715: "readInTables::readInTable": Nicht alle Codepfade geben einen Wert zurück.
+  Tools.vcxproj -> C:\Users\janol\source\repos\GenericFlightSimulation\x64\Debug\Tools.lib

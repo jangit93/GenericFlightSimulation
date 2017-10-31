@@ -1,0 +1,10 @@
+﻿  Executive.cpp
+Executive.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""public: __cdecl readInTables::readInTables(void)" (??0readInTables@@QEAA@XZ)" in Funktion "main".
+Executive.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""public: __cdecl LinearInterpolation::LinearInterpolation(void)" (??0LinearInterpolation@@QEAA@XZ)" in Funktion "main".
+Executive.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""public: double __cdecl LinearInterpolation::biLinearInterpolation(class Eigen::Matrix<double,-1,1,0,-1,1>,class Eigen::Matrix<double,-1,1,0,-1,1>,class Eigen::Matrix<double,-1,-1,0,-1,-1>,double,double)" (?biLinearInterpolation@LinearInterpolation@@QEAANV?$Matrix@N$0?0$00$0A@$0?0$00@Eigen@@0V?$Matrix@N$0?0$0?0$0A@$0?0$0?0@3@NN@Z)" in Funktion "main".
+Executive.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""public: __cdecl Atmopshere::Atmopshere(void)" (??0Atmopshere@@QEAA@XZ)" in Funktion "main".
+Executive.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""public: void __cdecl Atmopshere::initAtmosphere(void)" (?initAtmosphere@Atmopshere@@QEAAXXZ)" in Funktion "main".
+Executive.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""public: void __cdecl Atmopshere::updateAtmosphere(double)" (?updateAtmosphere@Atmopshere@@QEAAXN@Z)" in Funktion "main".
+C:\Users\janol\source\repos\GenericFlightSimulation\Debug\Tools.lib : warning LNK4272: Bibliothekcomputertyp "x86" steht in Konflikt mit dem Zielcomputertyp "x64"
+C:\Users\janol\source\repos\GenericFlightSimulation\Debug\Atmosphere.lib : warning LNK4272: Bibliothekcomputertyp "x86" steht in Konflikt mit dem Zielcomputertyp "x64"
+C:\Users\janol\source\repos\GenericFlightSimulation\x64\Debug\Executive.exe : fatal error LNK1120: 6 nicht aufgelöste Externe
