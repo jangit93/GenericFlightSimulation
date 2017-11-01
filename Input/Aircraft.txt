@@ -1,0 +1,62 @@
+//////////////////////////////////////////////////////////////////////////////////
+//   @ LFK-Lenkflugkoepersysteme GmbH 2009: The reproduction, distribution
+//   and utilization of this document as well as the communication of 
+//   its contents to others without explicit authorisation is prohibited. 
+//   Offenders will be held liable for the payment of damages. 
+//   All rights reserved in the event of the grant of a patent, utility 
+//   model or design.
+//////////////////////////////////////////////////////////////////////////////////
+###############################################################################
+//
+// 
+Filename:         Aircraft.dat (U)
+//
+// 
+Classification:   UNCLASSIFIED
+//
+// 
+Unit Name:        AircraftMass
+//
+// 
+System Name:      Missile Simulation
+//
+
+ Description:      Defines input parameter for the Aircraft class. Here 
+
+                   Lockheed martin F-16
+#//
+
+Author:           Jan Olucak
+#//
+#// 
+Company Name:     MBDA-LFK
+#//                   Schrobenhausen, Germany
+#
+ Revision History:
+#//
+#// <yyyymmdd> <Eng> <Description of modification>
+#// 
+ 20100428   KN   Original Release
+
+$Aircraft
+
+mass        = 15000;  [kg]
+I_X         = 12820;  moment of inertia[kg*m^2]
+I_Y         = 75673;  moment of inertia[kg*m^2]
+I_Z         = 85552;  moment of inertia[kg*m^2]
+I_zx        = 1331;   moment of inertia[kg*m^2]
+wing_area   = 27.87;  reference area[m^2]
+wing_span   = 9.1;    wing span[m] 
+MAC         = 3.45;   mean aerodynamic chord [m]   
+X_CG        = 7.62;   center of gravity [m]
+Y_CG        = 0;      center of gravity [m]
+Z_CG        = 0;      center of gravity [m]
+$
+ 
+
+#//   ****************************************************************
+#//                                                       
+#//   *                     UNCLASSIFIED                             *
+#//                                                       
+#//   ****************************************************************
+#//

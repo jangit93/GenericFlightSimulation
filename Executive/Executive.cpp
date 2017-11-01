@@ -1,4 +1,4 @@
-#include"readInTables.h"
+#include"readInData.h"
 #include"LinearInterpolation.h"
 #include"Atmosphere.h"
 #include"LogData.h"
@@ -12,7 +12,22 @@ int main(int argv, char* argc[])
 
 		tstart = clock();              // start 
 
-	readInTables *readIn		= new readInTables;
+		readInData *test = new readInData;
+
+		//MatrixXd CL = test->readInTable("CL.txt");
+		Float64  mass = test->readInParameter("mass", "Aircraft.txt");
+		Float64  I_x = test->readInParameter("I_X", "Aircraft.txt");
+		Float64 I_y = test->readInParameter("I_Y", "Aircraft.txt");
+		Float64  I_z = test->readInParameter("I_Z", "Aircraft.txt");
+		Float64  I_zx = test->readInParameter("I_zx", "Aircraft.txt");
+		Float64  wingarea = test->readInParameter("wing_area", "Aircraft.txt");
+		Float64  wingspan = test->readInParameter("wing_span", "Aircraft.txt");
+		Float64  MAC = test->readInParameter("MAC", "Aircraft.txt");
+		Float64  X_CG = test->readInParameter("X_CG", "Aircraft.txt");
+		Float64  Y_CG = test->readInParameter("Y_CG", "Aircraft.txt");
+		Float64  Z_CG = test->readInParameter("Z_CG", "Aircraft.txt");
+		
+		
 	LinearInterpolation *Interp = new LinearInterpolation;
 	Atmopshere *Atmo			= new Atmopshere;
 
@@ -21,33 +36,6 @@ int main(int argv, char* argc[])
 
 	typedef MatrixXd matrix;
 
-	matrix CL;
-	matrix CD;
-	matrix AOA;
-	matrix Mach;
-
-
-	CL		= readIn->readInTable("CL.txt");
-	CD		= readIn->readInTable("CD.txt");
-	AOA		= readIn->readInVector("AoA.txt");
-	Mach	= readIn->readInVector("Ma.txt");
-
-	Float64 CA = Interp->biLinearInterpolation(AOA,
-											   Mach,
-											   CL,
-											   2,
-											   0.31);
-
-	Float64 CW = Interp->biLinearInterpolation(AOA,
-											   Mach,
-											   CD,
-											   2,
-											    0.31);
-
-	std::cout << "Aufriebsbeiwert: " << CA << std::endl;
-	std::cout << '\n' << std::endl;
-	std::cout << "Widerstandsbeiwert: " << CW << std::endl;
-	std::cout << '\n' << std::endl;
 
 
 	time1 += clock() - tstart;     // end

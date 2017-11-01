@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\eigendir\eigen\src\core\</FILEPATH>
+      <FILENAME>plainobjectbase.h</FILENAME>
+      <LINE>316</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potenzieller Vergleich einer Konstanten mit einer anderen Konstanten.</DESCRIPTION>
+    <FUNCTION>Eigen::PlainObjectBase&lt;Eigen::Matrix&lt;double,-1,1,0,-1,1&gt; &gt;::resize</FUNCTION>
+    <DECORATED>?resize@?$PlainObjectBase@V?$Matrix@N$0?0$00$0A@$0?0$00@Eigen@@@Eigen@@QEAAX_J@Z</DECORATED>
+    <FUNCLINE>309</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\eigendir\eigen\src\core\</FILEPATH>
+      <FILENAME>plainobjectbase.h</FILENAME>
+      <LINE>367</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potenzieller Vergleich einer Konstanten mit einer anderen Konstanten.</DESCRIPTION>
+    <FUNCTION>Eigen::PlainObjectBase&lt;Eigen::Matrix&lt;double,-1,-1,0,-1,-1&gt; &gt;::resizeLike</FUNCTION>
+    <DECORATED>??$resizeLike@V?$Matrix@N$0?0$00$0A@$0?0$00@Eigen@@@?$PlainObjectBase@V?$Matrix@N$0?0$0?0$0A@$0?0$0?0@Eigen@@@Eigen@@QEAAXAEBU?$EigenBase@V?$Matrix@N$0?0$00$0A@$0?0$00@Eigen@@@1@@Z</DECORATED>
+    <FUNCLINE>362</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\eigendir\eigen\src\core\</FILEPATH>
+      <FILENAME>plainobjectbase.h</FILENAME>
+      <LINE>372</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potenzieller Vergleich einer Konstanten mit einer anderen Konstanten.</DESCRIPTION>
+    <FUNCTION>Eigen::PlainObjectBase&lt;Eigen::Matrix&lt;double,-1,-1,0,-1,-1&gt; &gt;::resizeLike</FUNCTION>
+    <DECORATED>??$resizeLike@V?$Matrix@N$0?0$00$0A@$0?0$00@Eigen@@@?$PlainObjectBase@V?$Matrix@N$0?0$0?0$0A@$0?0$0?0@Eigen@@@Eigen@@QEAAXAEBU?$EigenBase@V?$Matrix@N$0?0$00$0A@$0?0$00@Eigen@@@1@@Z</DECORATED>
+    <FUNCLINE>362</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\eigendir\eigen\src\core\util\</FILEPATH>
+      <FILENAME>memory.h</FILENAME>
+      <LINE>445</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potenzieller Vergleich einer Konstanten mit einer anderen Konstanten.</DESCRIPTION>
+    <FUNCTION>Eigen::internal::first_aligned</FUNCTION>
+    <DECORATED>??$first_aligned@$0BA@N_J@internal@Eigen@@YA_JPEBN_J@Z</DECORATED>
+    <FUNCLINE>439</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\eigendir\eigen\src\core\util\</FILEPATH>
+      <FILENAME>memory.h</FILENAME>
+      <LINE>451</LINE>
+      <COLUMN>74</COLUMN>
+    </SFA>
+    <DEFECTCODE>6326</DEFECTCODE>
+    <DESCRIPTION>Potenzieller Vergleich einer Konstanten mit einer anderen Konstanten.</DESCRIPTION>
+    <FUNCTION>Eigen::internal::first_aligned</FUNCTION>
+    <DECORATED>??$first_aligned@$0BA@N_J@internal@Eigen@@YA_JPEBN_J@Z</DECORATED>
+    <FUNCLINE>439</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

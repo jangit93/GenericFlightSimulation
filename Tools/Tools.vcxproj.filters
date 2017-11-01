@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="readInTables.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="LinearInterpolation.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
@@ -27,15 +24,18 @@
     <ClInclude Include="Constants.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="readInData.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="readInTables.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="LinearInterpolation.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="LogData.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="readInData.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
