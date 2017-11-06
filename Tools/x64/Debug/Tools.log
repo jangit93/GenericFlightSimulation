@@ -1,10 +1,5 @@
-﻿  LogData.cpp
-  readInData.cpp
-c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\tools\readindata.cpp(95): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
-c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\tools\readindata.cpp(160): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
-  LinearInterpolation.cpp
-c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\tools\linearinterpolation.cpp(43): warning C4244: "=": Konvertierung von "Float64" in "Int32", möglicher Datenverlust
-c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\tools\linearinterpolation.cpp(49): warning C4244: "=": Konvertierung von "Float64" in "Int32", möglicher Datenverlust
-  Code wird generiert...
-c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\tools\readindata.cpp(126): warning C4715: "readInData::readInTable": Nicht alle Codepfade geben einen Wert zurück.
+﻿  readInData.cpp
+c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\tools\readindata.cpp(92): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\tools\readindata.cpp(157): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+c:\users\janol\desktop\studium\master_luft und raumfahrttechnik\2.fachsemester\effizient programmieren\programierprojekt\genericflightsimulation\tools\readindata.cpp(123): warning C4715: "readInData::readInTable": Nicht alle Codepfade geben einen Wert zurück.
   Tools.vcxproj -> C:\Users\janol\Desktop\Studium\Master_Luft und Raumfahrttechnik\2.Fachsemester\Effizient Programmieren\Programierprojekt\GenericFlightSimulation\x64\Debug\Tools.lib

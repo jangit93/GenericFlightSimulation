@@ -35,7 +35,7 @@ public:
 
 	void	initAtmosphere();
 
-	void	updateAtmosphere(Float64 Altitude);
+	double	updateAtmosphere(Float64 Altitude);
 
 private:
 	Float64	Temperature;	// [K]

@@ -13,7 +13,7 @@ void Atmopshere::initAtmosphere()
 
 }
 
-void Atmopshere::updateAtmosphere(Float64 Altitude)
+double Atmopshere::updateAtmosphere(Float64 Altitude)
 {
 
 	//troposphere
@@ -45,7 +45,5 @@ void Atmopshere::updateAtmosphere(Float64 Altitude)
 			speedOfSound = sqrt(gamma * gasConstant * Temperature);
 			Pressure = Pressure * 1000;
 
-		std::cout << rho << " kg/m^3" << std::endl;
-			std::cout << speedOfSound << " m/s" << std::endl;
-			std::cout << Pressure << " Pa" << std::endl;
+			return rho;
 }

@@ -1,6 +1,4 @@
 #include "readInData.h"
-
-
 readInData::readInData()
 {
 	PathName2 = "../Input/";
@@ -12,16 +10,16 @@ readInData::~readInData()
 
 Float64 readInData::readInParameter(std::string CodeWord, std::string FileName)
 {
-
+	
 
 	// Öffne File
 	input.open(PathName2+FileName, std::ios::in);
 
 	// Exit if file opening failed
 	if (!input.is_open()) {
-		std::cerr << "Daten von  " << FileName << " konnten nicht gelesen werden" << std::endl;
-		system("pause");
-		exit(1);
+		std::cerr << "Daten von  " << CodeWord << " aus " << FileName << " konnten nicht gelesen werden" << std::endl;
+		return 0;
+		//exit(1);
 	}
 
 	// Durchlaufe File, solange Daten vorhanden
@@ -70,8 +68,7 @@ MatrixXd readInData::readInTable(std::string FileName)
 	// Exit if file opening failed
 	if (!input.is_open()) {
 		std::cerr << "Daten von  " << FileName << " konnten nicht gelesen werden" << std::endl;
-		system("pause");
-		exit(1);
+		return tempMatrix.setZero();
 	}
 
 	while (getline(input, line))
@@ -171,4 +168,9 @@ VectorXd readInData::readInVector(std::string FileName)
 	tempData.clear();
 
 	return tempVec;
+}
+
+void readInData::setPath(std::string Pathname)
+{
+	PathName2 = Pathname;
 }

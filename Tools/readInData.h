@@ -54,6 +54,8 @@ public:
 
 	VectorXd readInVector(std::string FileName);
 
+	void setPath(std::string Pathname);
+
 private:
 	std::vector<double> tempData;
 	int columncounter;
