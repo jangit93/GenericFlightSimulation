@@ -1,4 +1,1 @@
-﻿  Executive.cpp
-Executive.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""public: __cdecl readData::readData(void)" (??0readData@@QEAA@XZ)" in Funktion "main".
-Executive.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol ""public: __cdecl LinearInterpolation::LinearInterpolation(void)" (??0LinearInterpolation@@QEAA@XZ)" in Funktion "main".
-C:\Users\janol\Desktop\Studium\Master_Luft und Raumfahrttechnik\2.Fachsemester\Effizient Programmieren\Programierprojekt\GenericFlightSimulation\x64\Debug\Executive.exe : fatal error LNK1120: 2 nicht aufgelöste Externe
+﻿  Executive.vcxproj -> C:\Users\janol\Desktop\Studium\Master_Luft und Raumfahrttechnik\2.Fachsemester\Effizient Programmieren\Programierprojekt\GenericFlightSimulation\x64\Debug\Executive.exe
